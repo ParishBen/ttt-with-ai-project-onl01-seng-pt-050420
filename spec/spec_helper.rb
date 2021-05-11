@@ -1,4 +1,8 @@
-require_relative "../config/environment.rb"
+#require_relative "..config/environment"
+require 'bundler'
+Bundler.require
+
+
 
 RSpec.configure do |config|
   config.order = :default
